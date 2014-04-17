@@ -1,0 +1,23 @@
+Please execute the following commands.
+
+1. Compile the neural network.
+cmake .
+make
+
+* Please execute the "sudo apt-get install cmake" on ubuntu,
+  if you can not execute the cmake command yet.
+
+2. Execute the reasoning of neural network.
+./NeuralNet
+
+3. You get the result of reasoning.
+
+e.g. The reasoning
+question	{1,1,1}	{1,1,0}	{1,0,1}	{1,0,0}	{0,1,1}	{0,1,0}	{0,0,1}	{0,0,0}
+answer	{0.726926}	{0.0332366}	{0.191979}	{0.0556995}	{0.936561}	{0.144538}	{0.982205}	{0.86873}
+
+Please be fun! :D
+
+--
+Hisashi Ikari<ikari@akane.waseda.jp>
+
